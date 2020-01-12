@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS login_db DEFAULT CHARACTER SET utf8;
+USE login_db;
+
+CREATE TABLE IF NOT EXISTS users(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	username VARCHAR(255) NOT NULL,
+	hashed_password VARCHAR(127) NOT NULL
+) DEFAULT CHARSET=utf8;
+
+INSERT INTO users(username, hashed_password) VALUES ('test', 'f5b0f3ab37d3056820b6f6d450b04ec4c683851b61502000f533baaf8334cbc3e77e5ba4a1cefcc81fef640cacd3a4dfbf578b85237e3f308ce9515f41ac0a44');
+# Type your query above this line.
