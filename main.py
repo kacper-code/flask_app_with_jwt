@@ -16,7 +16,7 @@ app.secret_key = 'd2da6c79cb2e23287aa66d85dedf13ab3b0c72a72497d4e7d1ca0f65d9a485
 # Set details of database connection
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '#Andromorf97$!'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'login_db'
 
 # ... and initialize!
